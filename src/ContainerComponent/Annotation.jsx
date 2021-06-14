@@ -10,6 +10,7 @@ class Annotation extends PureComponent {
 
     render() {
         const activeShape=this.props.activeShape;
+        console.log("Start new journey.....")
         return (
             <Grid style={{
                 width: '100%',
